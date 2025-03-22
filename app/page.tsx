@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sparkles, Moon, Sun, Stars, Compass, Rocket, Zap, Heart, Lightbulb } from "lucide-react"
-import ZodiacPalm from "@/components/zodiac-palm"
+import CosmicZodiac from "@/components/cosmic-zodiac"
 import ZodiacExplorer from "@/components/zodiac-explorer"
 import { cn } from "@/lib/utils"
 
@@ -220,7 +220,7 @@ export default function Home() {
                       </CardDescription>
                     </CardHeader>
                     <CardContent className="relative z-10">
-                      <ZodiacPalm />
+                      <CosmicZodiac />
                     </CardContent>
                   </Card>
                 </motion.div>
